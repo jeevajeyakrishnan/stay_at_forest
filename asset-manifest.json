@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/stay_at_forest/static/css/main.f855e6bc.css",
+    "main.js": "/stay_at_forest/static/js/main.8f53c314.js",
+    "static/media/home.jpg": "/stay_at_forest/static/media/home.9ed846de6887c5197ad0.jpg",
+    "index.html": "/stay_at_forest/index.html",
+    "main.f855e6bc.css.map": "/stay_at_forest/static/css/main.f855e6bc.css.map",
+    "main.8f53c314.js.map": "/stay_at_forest/static/js/main.8f53c314.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.8f53c314.js"
+  ]
+}
