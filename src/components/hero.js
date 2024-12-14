@@ -32,10 +32,10 @@ function App() {
             <div></div>
           </div>
           <ul className={`navbar-list ${isMenuOpen ? 'active' : ''}`}>
-            <li className="navbar-item"><a href="#home">Home</a></li>
-            <li className="navbar-item"><a href="#services">About</a></li>
-            <li className="navbar-item"><a href="#rooms">Gallery</a></li>
-            <li className="navbar-item"><a href="#contact">Contacts</a></li>
+            <li className="navbar-item"><a href="/">Home</a></li>
+            <li className="navbar-item"><a href="#about">About</a></li>
+            <li className="navbar-item"><a href="#gallery">Gallery</a></li>
+            <li className="navbar-item"><a href="#footer">Contacts</a></li>
           </ul>
         </div>
       </nav>
