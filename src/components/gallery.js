@@ -1,5 +1,6 @@
 import React from "react";
 import "./gallery.css";
+import { Link } from "react-router-dom";
 
 export default function Gallery () {
   return (
@@ -12,7 +13,7 @@ export default function Gallery () {
           explore will ignite a fire of curiosity, inspiration, and motivation
           in your belly.
         </p>
-        <button className="explore-button">Explore</button>
+        <button className="explore-button"><Link to='/views'>Explore</Link></button>
       </header>
       <div className="image-grid">
         <img
