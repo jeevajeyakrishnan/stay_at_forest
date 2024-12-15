@@ -40,7 +40,7 @@ function App() {
         </div>
       </nav>
       <header id="home" className="hero">
-        <div class="overlay"></div>
+        <div class="overlay1"></div>
         <div className="hero-content">
           <h1><span style={{fontSize:'20px'}}>Welcome to,</span> <br/><span style={{fontSize:'60px'}}>Stay At Forest</span></h1>
           <p>
