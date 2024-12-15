@@ -10,6 +10,7 @@ export default function Views(){
             src={img1}
             alt="Gallery 1"
           />
+          <h1>Hello</h1>
           <img
             src="https://via.placeholder.com/300x400"
             alt="Gallery 5"

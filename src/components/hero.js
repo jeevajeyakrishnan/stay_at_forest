@@ -23,7 +23,7 @@ function App() {
     >
       <nav className="navbar">
         <div className="navbar-content">
-          <a href="#home" className="navbar-logo">
+          <a href="/" className="navbar-logo">
             <img src={logo} alt="The Relax Beach Logo" className="logo" />
           </a>
           <div className="hamburger" onClick={toggleMenu}>
@@ -32,15 +32,15 @@ function App() {
             <div></div>
           </div>
           <ul className={`navbar-list ${isMenuOpen ? 'active' : ''}`}>
-            <li className="navbar-item"><a href="#home">Home</a></li>
-            <li className="navbar-item"><a href="#services">About</a></li>
-            <li className="navbar-item"><a href="#rooms">Gallery</a></li>
-            <li className="navbar-item"><a href="#contact">Contacts</a></li>
+            <li className="navbar-item"><a href="/">Home</a></li>
+            <li className="navbar-item"><a href="#about">About</a></li>
+            <li className="navbar-item"><a href="#gallery">Gallery</a></li>
+            <li className="navbar-item"><a href="#footer">Contacts</a></li>
           </ul>
         </div>
       </nav>
       <header id="home" className="hero">
-        <div class="overlay"></div>
+        <div class="overlay1"></div>
         <div className="hero-content">
           <h1><span style={{fontSize:'20px'}}>Welcome to,</span> <br/><span style={{fontSize:'60px'}}>Stay At Forest</span></h1>
           <p>
