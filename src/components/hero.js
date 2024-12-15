@@ -23,7 +23,7 @@ function App() {
     >
       <nav className="navbar">
         <div className="navbar-content">
-          <a href="#home" className="navbar-logo">
+          <a href="/" className="navbar-logo">
             <img src={logo} alt="The Relax Beach Logo" className="logo" />
           </a>
           <div className="hamburger" onClick={toggleMenu}>
