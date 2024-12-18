@@ -18,13 +18,13 @@ export default function Footer(){
         </div>
         <div className="footer-content">
           <div className="footer-section">
-            <h3>Head Office</h3>
+            <h3>Stay at forest</h3>
             <p>123 Main Street, Melbourne, Australia</p>
           </div>
           <div className="footer-section">
             <h3>Contact</h3>
-            <p>Email: info@example.com</p>
-            <p>Phone: +61 123 456 789</p>
+            <p>Email: jeeevasuriya@gmail.com</p>
+            <p>Phone: +91 9791530900</p>
           </div>
           <div className="footer-section">
             <h3>Follow Us</h3>
