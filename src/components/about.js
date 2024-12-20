@@ -18,11 +18,11 @@ function AboutPage() {
             <div className="card">
                 <div className="content">
                     <p>Our resort offers traditional mud homes, combining natural materials with a cozy atmosphere.
-                    🌲 A serene environment surrounded by the sounds of chirping birds and rustling leaves.
-🍃 Eco-friendly, cozy mud houses with earthy aesthetics and cool interiors.
-🪵 Campfire evenings under the starlit sky.
-🚶‍♂️ Guided nature trails and forest treks.
-🍂 Local organic cuisine prepared with love.
+                    A serene environment surrounded by the sounds of chirping birds and rustling leaves.
+                    Eco-friendly, cozy mud houses with earthy aesthetics and cool interiors.
+                    Campfire evenings under the starlit sky.
+                    Guided nature trails and forest treks.
+                    Local organic cuisine prepared with love.
                     </p>
                 </div>
                 <div className="image">

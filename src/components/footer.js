@@ -2,39 +2,70 @@ import "./footer.css"
 
 export default function Footer(){
     return(
-        <>
-            <div>
-            <footer className="footer" id="footer">
-        <div className="map">
-          <iframe
-            title="Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509372!2d144.9537353153167!3d-37.81720997975161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577c4b8edaf48d0!2sVictoria%20Harbour!5e0!3m2!1sen!2sau!4v1614762214812!5m2!1sen!2sau"
-            width="100%"
-            height="450"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-          ></iframe>
-        </div>
-        <div className="footer-content">
-          <div className="footer-section">
-            <h3>Stay at forest</h3>
-            <p>123 Main Street, Melbourne, Australia</p>
-          </div>
-          <div className="footer-section">
-            <h3>Contact</h3>
-            <p>Email: jeeevasuriya@gmail.com</p>
-            <p>Phone: +91 9791530900</p>
-          </div>
-          <div className="footer-section">
-            <h3>Follow Us</h3>
-            <p>
-              <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
-            </p>
+      <footer className="footer">
+      <div className="footer-container">
+        {/* Logo and Description */}
+        <div className="footer-section">
+          <h2 className="footer-logo">UDrive</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero vero.
+          </p>
+          <div className="social-icons">
+            <a href="#" aria-label="Facebook">
+              <i className="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <i className="fab fa-twitter"></i>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <i className="fab fa-instagram"></i>
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <i className="fab fa-linkedin-in"></i>
+            </a>
           </div>
         </div>
-      </footer>  
-            </div>
-        </>
-    )
-}
+
+        {/* Get In Touch Section */}
+        <div className="footer-section">
+          <h3>Get In Touch</h3>
+          <p>123 Abcde Road, Hudson</p>
+          <p>example@gmail.com</p>
+          <p>+123 456 7890</p>
+          <p>07:00 AM - 10:00 PM</p>
+        </div>
+
+        {/* Contact Section */}
+        <div className="footer-section">
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="#">Email Us</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">How We Work</a></li>
+          </ul>
+        </div>
+
+        {/* Support Section */}
+        <div className="footer-section">
+          <h3>Support</h3>
+          <ul>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Consultation</a></li>
+            <li><a href="#">Visit Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Copyright Section */}
+      <div className="footer-bottom">
+        <p>© 2024 UDrive Project</p>
+        <div className="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Services</a>
+        </div>
+      </div>
+    </footer>
+  );
+};

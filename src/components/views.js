@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./gallery.css";
+import "./views.css";
 import "aos/dist/aos.css"
 import Aos from "aos"
 import img1 from "../images/inner1.jpg"
@@ -8,7 +8,8 @@ import img3 from "../images/outerresort1.jpg"
 import img4 from "../images/outerresort1.jpg"
 import img5 from "../images/outerresort3.jpg"
 import img6 from "../images/home.jpg"
-import { Link } from "react-router-dom";
+import Footer from "./footer"
+import Navbar from "./navbar";
 
 
 export default function Gallery () {
@@ -16,7 +17,8 @@ export default function Gallery () {
           Aos.init({disable:'mobile'})
     },[]);
   return (
-    <div className="container" id="gallery">
+    <>
+    <div className="container">
       <header className="header">
         <h1>Explore The Most Beautiful <span style={{marginLeft:'80px'}}>Places In The World</span> <span className='abt-subheadline'></span></h1>
         <h4>
@@ -100,6 +102,8 @@ export default function Gallery () {
     </div>
   </div>
 </div>
+<Footer/>
     </div>
+    </>
   );
 };
