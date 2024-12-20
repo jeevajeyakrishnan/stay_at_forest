@@ -3,7 +3,7 @@
     text-align: left;
     background-color:rgba(128, 128, 128, 0.082) ;
     display: grid;
-    height: 170vh;
+    height: 130vh;
     padding-top: 5vh;
   }
   .header{
@@ -31,6 +31,10 @@
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    a{
+      color: white;
+      text-decoration: none;
+    }
   }
   
   .explore-button:hover {
@@ -40,9 +44,10 @@
   .image-grid {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    margin-top: 0vh;
+    margin-top: -10vh;
     justify-content: center;
     gap: 10px;
+    margin-left: 15vw;
   }
   
   .image-grid img {
@@ -51,7 +56,6 @@
     margin-top: 5px;
   }
   .img-container{
-    margin-top: -40px;
     width: 18vw;
   }
   #image-container-1{
@@ -74,14 +78,14 @@
   }
   
   .image-wrapper:hover img {
-    transform: scale(1); /* Zoom effect on hover */
+    transform: scale(1);
   }
   
   .overlay {
     position: absolute;
-    margin-top: 8px;
+    margin-top: 5px;
     width: 100%;
-    height: 97%;
+    height: 98%;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.6);
     display: flex;
@@ -93,6 +97,7 @@
   
   .image-wrapper:hover .overlay {
     opacity: 1;
+    cursor: pointer;
   }
   
   .overlay-content {

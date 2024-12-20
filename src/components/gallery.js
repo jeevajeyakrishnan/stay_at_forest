@@ -59,7 +59,7 @@ export default function Gallery () {
         data-aos-duration="1000"
       />
       <div className="overlay">
-        <div className="overlay-content">An Experience Beyond Sight, Feel the crunch of fresh apples straight from the trees, taste the unmatched flavor of nature’s goodness</div>
+        <div className="overlay-content">An Experience Beyond Sight, Feel the crunch of fresh apples straight from the trees.</div>
       </div>
     </div>
   </div>

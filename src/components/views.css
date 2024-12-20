@@ -3,8 +3,8 @@
   text-align: left;
   background-color:rgba(128, 128, 128, 0.082) ;
   display: grid;
-  height: 170vh;
   padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 .header{
   margin-left:5%;
