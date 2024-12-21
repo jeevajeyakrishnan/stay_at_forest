@@ -18,7 +18,7 @@ export default function Gallery () {
   return (
     <div className="container" id="gallery">
       <header className="header">
-        <h1>Explore The Most Beautiful <span style={{marginLeft:'80px'}}>Places In The World</span> <span className='abt-subheadline'></span></h1>
+        <h1>Explore The Most Beautiful <br/><span className="gal-sub-head">- Places In The World</span></h1>
         <p>
            Every moment is an opportunity to explore,
            from forest explorations to restful waterfalls 

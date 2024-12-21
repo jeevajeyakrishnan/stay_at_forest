@@ -6,7 +6,6 @@
       grid-template-columns: repeat(1,auto);
       justify-content: center;
       padding: 40px;
-      /* margin-top: 5vh; */
        color: black;
       h1{
         font-size: 50px;
@@ -15,16 +14,7 @@
       }
     }
     .abt-subhead{
-      margin-left: 90px;
-    }
-    .abt-subheadline::after{
-      content: '';
-      width: 100px;
-      height: 3px;
-      margin-top: 35px;
-      margin-left: 5px;
-      background-color: #1b2735;
-      position: absolute;
+      margin-left: 4vw;
     }
     .card {
       margin-top: -150px;
@@ -38,6 +28,7 @@
       flex: 1;
       padding:20px;
       padding-right: 80px;
+      width: 100%;
     }
     
     .image {
@@ -73,26 +64,54 @@
       cursor: pointer;
       background: none;
     }
+    .about-container{
+      h1{
+        font-size: 3vw;
+      }
+    }
+    .res-abt-img{
+      display: none;
+    }
     
     @media (max-width: 768px) {
-      /* Adjust layout for smaller screens */
       .about-container{
-        padding: 0;
-        margin-left: -35px;
+        padding: 10px;
+        text-align: center;
+        h1{
+          font-size: 30px;
+        }
       }
       .card{
         display: grid;
         grid-template-columns: repeat(1,auto);
-        justify-content: center;
+        margin-top: -10vh;
+        text-align: left;
+        padding-left:10px;
+        z-index: -1;
       }
       .content{
-        padding: 10px;
+        padding: 0;
+        margin-left:-10px;
+        margin-top: 40px;
+        width: 100%;
+      }
+      .abt-head{
+        padding: 0;
+        padding-top:5vh;
+        
       }
       .image{
-        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
       }
-      .abtimg{
-        width: 100%;
+      .abtimg1, .abtimg2, .abtimg3{
+        display: none;
+      }
+      .res-abt-img{
+        display: block;
+        img{
+          width: 100%;
+        }
       }
     }
     

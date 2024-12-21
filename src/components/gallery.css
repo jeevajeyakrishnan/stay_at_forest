@@ -1,24 +1,21 @@
 
-  .container {
+  .container{
     text-align: left;
-    background-color:rgba(128, 128, 128, 0.082) ;
-    display: grid;
+    width: 95%;
     height: 130vh;
-    padding-top: 5vh;
   }
   .header{
     margin-left:5%;
-    width:50%;
     text-align: left;
   }
   .header h1 {
-      font-size: 50px;
+      font-size: 3vw;
       color: rgb(63, 59, 59);
       font-family:'Times New Roman', Times, serif;
   }
   
   .header p {
-    font-size: 1rem;
+    font-size: 1vw;
     margin-bottom: 20px;
     line-height: 1.5;
   }
@@ -106,4 +103,49 @@
     text-align: center;
     padding: 10px;
   }
+  .gal-sub-head{
+    margin-left: 80px;
+  }
+  .header{
+    p{
+      width: 50vw;
+    }
+  }
   
+  @media (max-width: 768px) {
+    .container{
+      height: auto;
+      display: grid;
+      grid-template-columns: repeat(1, auto);
+      justify-content: left;
+      margin: 0;
+      padding: 10px;
+      h1{
+        text-align: center;
+        font-size: 30px;
+      }
+      p{
+        font-size: 15px;
+        text-align: center;
+      }
+    }
+    .image-grid{
+      margin-top: 5vh;
+      margin-left: 0;
+      display: grid;
+      grid-template-columns: repeat(1, auto);
+    }
+    .img-container{
+      width: 70vw;
+      margin-top: 0;
+      img{
+        margin: 0;
+      }
+    }
+    #image-container-1, #image-container-2, #image-container-4{
+      margin:0;
+    }
+    .header p{
+      width: auto;
+    }
+  }

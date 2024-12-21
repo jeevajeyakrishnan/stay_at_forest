@@ -20,7 +20,7 @@ export default function Gallery () {
     <>
     <div className="container">
       <header className="header">
-        <h1>Explore The Most Beautiful <span style={{marginLeft:'80px'}}>Places In The World</span> <span className='abt-subheadline'></span></h1>
+        <h1>Explore The Most Beautiful <br/>- Places In The World<span className='abt-subheadline'></span></h1>
         <h4>
            The interior design of the resort is visualized
         </h4>

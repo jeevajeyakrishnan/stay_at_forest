@@ -6,7 +6,7 @@ export default function Footer(){
       <div className="footer-container">
         {/* Logo and Description */}
         <div className="footer-section">
-          <h2 className="footer-logo">UDrive</h2>
+          <h2 className="footer-logo">Stay at forest .</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero vero.
           </p>
@@ -60,7 +60,7 @@ export default function Footer(){
 
       {/* Copyright Section */}
       <div className="footer-bottom">
-        <p>© 2024 UDrive Project</p>
+        <p>© 2024 All rights reserved</p>
         <div className="footer-links">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms & Services</a>
